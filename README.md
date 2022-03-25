@@ -4,7 +4,7 @@
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Live Demo](https://loopstudio-react.netlify.app/)
 
 ### Built with
 
@@ -21,4 +21,4 @@ I'm learning react props and components.
 
 ## Author
 
-- Website - [Bekzod](https://www.your-site.com)
+- Website - [Bekzod](https://github.com/bekzodturgunoff)
