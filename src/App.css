@@ -1,0 +1,172 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#root {
+  margin: auto;
+  width: 1440px;
+}
+:root {
+  --primary-font: "Josefin Sans", sans-serif;
+  --second-font: "Alata", sans-serif;
+}
+
+.navbar-container {
+  background-image: url(../images/desktop/image-hero.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 700px;
+}
+.overlay {
+  background-color: rgba(0, 0, 0, 0.37);
+  height: 700px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 4rem;
+  margin-left: 6.5rem;
+  margin-right: 6.5rem;
+}
+
+.links {
+  display: flex;
+  gap: 1.5rem;
+}
+a {
+  text-decoration: none;
+}
+
+.links a {
+  color: #fff;
+  font-family: var(--primary-font);
+  font-size: 1rem;
+}
+
+.hero-heading {
+  width: 40rem;
+  height: 18rem;
+  border: 2px solid #fff;
+  margin-left: 10rem;
+  margin-top: 6rem;
+}
+.hero-heading h1 {
+  color: #fff;
+  padding: 3rem;
+  font-family: var(--primary-font);
+  font-size: 4rem;
+  font-weight: 400;
+}
+
+.content-one {
+  margin-top: 10rem;
+  height: 40rem;
+}
+
+.interactive-img-container {
+  margin-left: 10rem;
+}
+
+.interactive-text-container {
+  position: relative;
+  bottom: 20rem;
+  background-color: #fff;
+  width: 50%;
+  left: 46rem;
+  height: 20rem;
+}
+
+.interactive-text-container h1,
+p {
+  margin-left: 6rem;
+}
+.interactive-text-container h1 {
+  font-family: var(--primary-font);
+  font-weight: 400;
+  font-size: 3rem;
+  padding-top: 5rem;
+  margin-bottom: 2rem;
+}
+
+.interactive-text-container p {
+  font-family: var(--second-font);
+  color: hsl(0, 0%, 55%);
+  width: 45ch;
+}
+
+.creation {
+  display: flex;
+  justify-content: space-between;
+}
+
+.creation h1 {
+  font-family: var(--primary-font);
+  font-weight: 400;
+  font-size: 3rem;
+}
+
+.creation button {
+  border: 2px solid hsl(0, 0%, 55%);
+  border-radius: 3px;
+  background-color: #fff;
+  width: 10rem;
+  height: 2.8rem;
+}
+
+.movie-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin-top: 5rem;
+}
+.movie {
+  margin: auto;
+}
+
+.movie h2 {
+  position: relative;
+  bottom: 5rem;
+  color: #fff;
+  font-family: var(--primary-font);
+  left: 1.5rem;
+  font-weight: 400;
+  font-size: 2rem;
+  width: 9ch;
+}
+
+.footer {
+  background-color: black;
+  height: 10rem;
+  display: flex;
+  justify-content: space-between;
+  color: #fff;
+  padding: 3rem;
+  padding-left: 5rem;
+  padding-right: 5rem;
+}
+
+.footer-logo {
+  margin-bottom: 1rem;
+}
+.footer-links a {
+  color: #fff;
+  margin-right: 1rem;
+  font-family: var(--primary-font);
+}
+.footer-icon-links {
+  display: flex;
+  justify-content: flex-end;
+}
+.footer-logo-links img {
+  margin-bottom: 1rem;
+}
+
+.footer-icon-links img {
+  margin-left: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.footer-icons p {
+  font-family: var(--primary-font);
+}
