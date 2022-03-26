@@ -18,7 +18,7 @@ function MainContent() {
         </div>
         <div className="interactive-text-container">
           <h1>THE LEADER IN INTERACTIVE VR</h1>
-          <p>
+          <p className="interactive-paragraph">
             Founded in 2011, Loopstudios has been producing world-class virtual
             reality projects for some of the best companies around the globe.
             Our award-winning creation have transformed businesses through
