@@ -1,8 +1,8 @@
-function Movie(props) {
+function Movie({ img, title }) {
   return (
     <div className="movie">
-      <img src={props.img} />
-      <h2>{props.title}</h2>
+      <img src={img} />
+      {title && <h2>{title}</h2>}
     </div>
   );
 }
