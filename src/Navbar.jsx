@@ -1,12 +1,15 @@
 import Logo from "../images/logo.svg";
+import hamburger from "../images/icon-hamburger.svg";
 
 function Navbar() {
   return (
     <div className="navbar-container">
       <div className="overlay">
         <div className="navbar">
+      
           <img src={Logo} />
-
+          <img className="ham-btn" src={hamburger} />
+         
           <div className="links">
             <a href="#">About</a>
             <a href="#">Careers</a>

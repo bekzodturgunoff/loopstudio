@@ -24,6 +24,9 @@ html {
   background-size: cover;
   height: 700px;
 }
+.ham-btn {
+  display: none;
+}
 .overlay {
   background-color: rgba(0, 0, 0, 0.37);
   height: 700px;
@@ -300,5 +303,14 @@ p {
 
   .hero-heading h1 {
     word-wrap: break-word;
+  }
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+    margin: auto;
+  }
+  .ham-btn {
+    display: block;
   }
 }
