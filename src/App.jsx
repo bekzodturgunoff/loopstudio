@@ -1,4 +1,3 @@
-import { useState } from "react";
 import "./App.css";
 import Navbar from "./Navbar";
 import MainContent from "./Main-content";
@@ -11,7 +10,7 @@ function App() {
     <div className="App">
       <Navbar />
       <MainContent />
-      <Footer/>
+      <Footer />
     </div>
   );
 }
