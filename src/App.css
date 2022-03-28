@@ -290,7 +290,7 @@ p {
   .hamburger-close-div {
     display: flex;
     justify-content: space-between;
-    padding: 3rem;
+    padding: 2.5rem;
   }
 
   .hamburger-close-div img {
