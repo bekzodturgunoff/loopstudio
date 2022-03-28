@@ -33,7 +33,9 @@ export default function Footer() {
             <img src={instagram} />
           </a>
         </div>
-        <p>@2022 loopstudiuos. All rights reserved.</p>
+        <p className="footer-paragraph">
+          @2022 loopstudiuos. All rights reserved.
+        </p>
       </div>
     </div>
   );

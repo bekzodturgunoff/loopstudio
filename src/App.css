@@ -284,9 +284,17 @@ p {
   }
   .footer-icon-links {
     display: flex;
-    justify-content: center;
-    text-align: center;
-    padding: 1rem;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2rem;
+    margin-bottom: 3rem;
+  }
+  .footer-icon-links img {
+    margin: auto;
+  }
+
+  .footer-paragraph {
+    margin: auto;
   }
 
   .footer-logo-links img {
@@ -381,6 +389,7 @@ p {
     justify-content: center;
     margin: auto;
     align-items: center;
+    padding: 1rem;
   }
   .hero-heading h1 {
     font-size: 3rem;
@@ -393,6 +402,4 @@ p {
     margin: auto;
     margin-bottom: 0.5rem;
   }
-
-  
 }
