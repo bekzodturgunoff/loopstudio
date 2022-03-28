@@ -276,6 +276,7 @@ p {
     display: none;
   }
   .hamburger-links {
+    background-color: black;
     position: absolute;
     margin-left: auto;
     margin-right: auto;
@@ -283,6 +284,17 @@ p {
     right: 0;
     height: 100%;
     flex-direction: column;
+    top: -1px;
+  }
+
+  .hamburger-close-div {
+    display: flex;
+    justify-content: space-between;
+    padding: 3rem;
+  }
+
+  .hamburger-close-div img {
+    height: 20px;
   }
 
   .hamburger-links a {
