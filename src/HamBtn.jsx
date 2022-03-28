@@ -8,6 +8,7 @@ export default function HamBtn() {
   const toggleHamburger = () => {
     setHamburgerOpen(!hamburgerOpen);
   };
+
   return (
     <div>
       <img src={Button} className="ham-btn" onClick={toggleHamburger} />
@@ -15,7 +16,7 @@ export default function HamBtn() {
       <div className="hamburger-links">
         <div className="hamburger-close-div">
           <img src={Logo} />
-          <img className="close-btn" src={closeImg} onClick={toggleHamburger} />
+          <img className="close-btn" src={closeImg} onClick={toggleHamburger}  /> 
         </div>
         <a href="#">About</a>
         <a href="#">Careers</a>
@@ -28,6 +29,9 @@ export default function HamBtn() {
         {`
           .hamburger-links {
             display: ${hamburgerOpen ? "flex" : "none"};
+          }
+          *{
+            overflow: ${hamburgerOpen ? "hidden" : ""}
           }
         `}
       </style>

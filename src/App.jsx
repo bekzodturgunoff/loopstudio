@@ -3,10 +3,9 @@ import "./App.css";
 import Navbar from "./Navbar";
 import MainContent from "./Main-content";
 import Footer from "./Footer";
-
-function App() {
+import HamBtn from "./HamBtn";
+function App(props) {
   const [count, setCount] = useState(0);
-
   return (
     <div className="App">
       <Navbar />
