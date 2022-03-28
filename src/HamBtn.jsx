@@ -1,5 +1,4 @@
 import { useState } from "react";
-import { useDebugValue } from "react/cjs/react.production.min";
 import Button from "../images/icon-hamburger.svg";
 import closeImg from "../images/icon-close.svg";
 import Logo from "../images/logo.svg";
@@ -8,11 +7,6 @@ export default function HamBtn() {
   const [hamburgerOpen, setHamburgerOpen] = useState(false);
   const toggleHamburger = () => {
     setHamburgerOpen(!hamburgerOpen);
-    if (hamburgerOpen) {
-      console.log("clicked");
-    } else {
-      console.log("not clicked");
-    }
   };
   return (
     <div>
