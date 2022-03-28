@@ -17,7 +17,9 @@ html {
   --primary-font: "Josefin Sans", sans-serif;
   --second-font: "Alata", sans-serif;
 }
-
+.hamburger-links {
+  display: none;
+}
 .navbar-container {
   background-image: url(../images/desktop/image-hero.jpg);
   background-repeat: no-repeat;
@@ -273,6 +275,20 @@ p {
   .links {
     display: none;
   }
+  .hamburger-links {
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    height: 100%;
+    flex-direction: column;
+  }
+
+  .hamburger-links a {
+    padding: 1rem;
+    margin: 1rem;
+  }
 
   .movie-container {
     display: grid;
@@ -419,5 +435,6 @@ p {
   .footer-links a {
     margin: auto;
     margin-bottom: 0.5rem;
+    position: absolute;
   }
 }

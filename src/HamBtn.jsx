@@ -8,26 +8,29 @@ export default function HamBtn() {
     if (hamburgerOpen) {
       console.log("clicked");
     } else {
-      console.log("not cliked");
+      console.log("not clicked");
     }
   };
   return (
     <div>
       <img src={Button} className="ham-btn" onClick={toggleHamburger} />
 
-      <div className="ham-links">
+      <div className="hamburger-links">
         <a href="#">About</a>
         <a href="#">Careers</a>
         <a href="#">Events</a>
         <a href="#">Products</a>
         <a href="#">Support</a>
       </div>
-      <style jsx>{`
-          .ham-links{
-              display: ${hamburgerOpen ? "inline" : "none"}
-              background-color: #FFF;
+
+      <style jsx>
+        {`
+          .hamburger-links {
+            display: ${hamburgerOpen ? "flex" : "none"};
+            background-color: white;
           }
-          `}</style>
+        `}
+      </style>
     </div>
   );
 }

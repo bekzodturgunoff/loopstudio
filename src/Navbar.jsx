@@ -8,6 +8,7 @@ function Navbar() {
         <div className="navbar">
           <img src={Logo} />
           <HamBtn />
+
           <div className="links">
             <a href="#">About</a>
             <a href="#">Careers</a>
