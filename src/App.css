@@ -57,6 +57,7 @@ a {
   color: #fff;
   font-family: var(--primary-font);
   font-size: 1rem;
+  font-weight: 600;
 }
 
 .hero-heading {
@@ -343,11 +344,11 @@ p {
     cursor: pointer;
   }
   .overlay {
-    height: 870px;
+    height: 650px;
   }
 
   .navbar-container {
-    height: 870px;
+    height: 650px;
   }
 }
 
