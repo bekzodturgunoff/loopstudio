@@ -68,6 +68,7 @@ a {
   font-family: var(--primary-font);
   font-size: 4rem;
   font-weight: 400;
+  word-wrap: break-word;
 }
 
 .content-one {
@@ -299,11 +300,16 @@ p {
     margin: auto;
     margin-top: 5rem;
     padding: 1rem;
+    width: auto;
+    height: auto;
+    margin: 1rem;
+    margin-top: 7rem;
   }
 
   .hero-heading h1 {
-    word-wrap: break-word;
+    padding: 0;
   }
+
   .navbar {
     display: flex;
     justify-content: space-between;
@@ -312,5 +318,12 @@ p {
   }
   .ham-btn {
     display: block;
+  }
+  .overlay {
+    height: 870px;
+  }
+
+  .navbar-container {
+    height: 870px;
   }
 }
