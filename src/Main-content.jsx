@@ -1,7 +1,6 @@
 import InteractiveImg from "../images/desktop/image-interactive.jpg";
 import Movie from "./Movie";
 import MovieData from "./MovieData";
-console.log(MovieData);
 
 function MainContent() {
   return (
