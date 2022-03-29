@@ -4,9 +4,6 @@ import MovieData from "./MovieData";
 console.log(MovieData);
 
 function MainContent() {
-  const movieElements = MovieData.map((movie) => {
-    return <Movie title={movie.title} imgSrc={movie.imgSrc} />;
-  });
   return (
     <div className="main-content">
       <div className="content-one">
@@ -30,7 +27,11 @@ function MainContent() {
           <button>SEE ALL</button>
         </div>
 
-        <div className="movie-container">{movieElements}</div>
+        <div className="movie-container">
+          {MovieData.map((movie) => {
+            return <Movie title={movie.title} imgSrc={movie.imgSrc} />;
+          })}
+        </div>
       </div>
     </div>
   );
