@@ -48,6 +48,10 @@ function MainContent() {
           <Movie img={movie7} title="THE CURIOSITY" />
 
           <Movie img={movie8} title="MAKE IT FISHEYE" />
+
+          <Movie img={movie2} title="NIGHT ARCADE" />
+
+          <Movie img={movie6} title="POCKET BOREALIS" />
         </div>
       </div>
     </div>
